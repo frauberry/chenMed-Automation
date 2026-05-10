@@ -1,6 +1,7 @@
 package website.utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -13,7 +14,7 @@ public class DriverUtils {
 
     private DriverUtils() {}
 
-    private static WebDriver getDriver() {
+    static WebDriver getDriver() {
         return DriverManager.get();
     }
 
@@ -31,5 +32,15 @@ public class DriverUtils {
         try{
             Thread.sleep(seconds * 1000);
         } catch (InterruptedException ex) {}
+    }
+
+    public static void scrollDownToElement(By by) {
+        WebElement element = getDriver().findElement(by);
+
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+        js.executeScript(
+                "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});",
+                element
+        );
     }
 }

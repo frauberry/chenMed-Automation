@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import ui.BaseUiTest;
 import website.core.driver.DriverManager;
 import website.pages.*;
+import website.utils.Log;
 
 public class SmokeTest extends BaseUiTest {
 
@@ -48,5 +49,13 @@ public class SmokeTest extends BaseUiTest {
         contactPage.submitForm();
 
         Assert.assertTrue(contactPage.isInlineErrorMessageDisplayed());
+    }
+    @Test
+    public void patientStoriesCarouselTest() {
+        WebDriver driver = DriverManager.get();
+        driver.get("https://www.chenmed.com/");
+        HomePage homePage = new HomePage();
+        Assert.assertTrue(homePage.areAllSegmentsDisplayed());
+        Log.info("Patient Stories Carousel Test Passed");
     }
 }
