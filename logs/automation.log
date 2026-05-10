@@ -1,0 +1,21 @@
+2026-05-10 15:12:03 INFO  website.utils.Log - Navigated to Homepage
+2026-05-10 15:12:05 INFO  website.utils.Log - carousel moved to the right
+2026-05-10 15:12:07 INFO  website.utils.Log - Second segment displayed
+2026-05-10 15:12:09 INFO  website.utils.Log - carousel moved to the right
+2026-05-10 15:12:10 INFO  website.utils.Log - Third segment displayed
+2026-05-10 15:12:12 INFO  website.utils.Log - carousel moved to the right
+2026-05-10 15:12:13 INFO  website.utils.Log - Forth segment displayed
+2026-05-10 15:12:15 INFO  website.utils.Log - carousel moved to the right
+2026-05-10 15:12:16 INFO  website.utils.Log - First segment displayed
+2026-05-10 15:12:16 INFO  website.utils.Log - Patient Stories Carousel Test Passed
+2026-05-10 15:20:51 INFO  website.utils.Log - Navigated to Homepage
+2026-05-10 15:20:58 INFO  website.utils.Log - Navigated to Homepage
+2026-05-10 15:21:02 INFO  website.utils.Log - carousel moved to the right
+2026-05-10 15:21:03 INFO  website.utils.Log - Second segment displayed
+2026-05-10 15:21:05 INFO  website.utils.Log - carousel moved to the right
+2026-05-10 15:21:06 INFO  website.utils.Log - Third segment displayed
+2026-05-10 15:21:08 INFO  website.utils.Log - carousel moved to the right
+2026-05-10 15:21:09 INFO  website.utils.Log - Forth segment displayed
+2026-05-10 15:21:12 INFO  website.utils.Log - carousel moved to the right
+2026-05-10 15:21:13 INFO  website.utils.Log - First segment displayed
+2026-05-10 15:21:13 INFO  website.utils.Log - Patient Stories Carousel Test Passed
